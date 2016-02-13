@@ -12,7 +12,7 @@ Npm.depends({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.0.1');
-  api.use('angular@1.3.4', 'client');
+  api.use('angular@1.3.6-beta.1', 'client');
 
   api.addFiles([
     '.npm/package/node_modules/angular2-now/dist/angular2-now.js',
